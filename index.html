@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Juice - Nước Ép Tươi Ngon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #ff6b6b, #ffa500);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #fff;
+            color: #ff6b6b;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+        
+        .products {
+            padding: 80px 20px;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .products h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #333;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .product-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        
+        .product-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #ff6b6b;
+        }
+        
+        .price {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ffa500;
+            margin-top: 15px;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        footer a {
+            color: #ffa500;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>🍊 Fresh Juice</h1>
+        <p>Nước ép tươi ngon từ những trái cây tự nhiên nhất</p>
+        <a href="#products" class="btn">Khám phá ngay</a>
+    </section>
+    
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Sản phẩm nổi bật</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-icon">🍊</div>
+                    <h3>Nước ép cam tươi</h3>
+                    <p>Cam tươi ngon, giàu vitamin C, tốt cho sức khỏe</p>
+                    <div class="price">45.000đ</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🍎</div>
+                    <h3>Nước ép táo xanh</h3>
+                    <p>Táo xanh tươi mát, giúp thanh lọc cơ thể</p>
+                    <div class="price">50.000đ</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🥭</div>
+                    <h3>Nước ép xoài</h3>
+                    <p>Xoài chín ngọt, hương vị nhiệt đới đặc trưng</p>
+                    <div class="price">55.000đ</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Fresh Juice. Tất cả quyền được bảo lưu.</p>
+        <nav>
+            <a href="terms-of-service.html">Điều khoản dịch vụ</a>
+            <a href="privacy-policy.html">Chính sách bảo mật</a>
+        </nav>
+    </footer>
+</body>
+</html>
